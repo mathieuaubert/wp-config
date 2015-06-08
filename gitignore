@@ -1,0 +1,21 @@
+#Fichiers inutiles de windows, mac et linux
+*.db
+.DS_Store
+._*
+*~
+
+#Fichiers IDE
+nbproject/*
+.settings/*
+.buildpath
+.project
+
+# Fichiers phing
+/my.build.properties
+
+# fichiers pouvant contenir des configs
+/.htaccess
+/.htpasswd
+/wp-config.php
+/wp-content/uploads
+/wp-content/cache
